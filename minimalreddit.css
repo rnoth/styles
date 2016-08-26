@@ -1,0 +1,80 @@
+@namespace url(http://www.w3.org/1999/xhtml;;
+
+/* A simple stylesheet intended to strip the clutter from reddit. */
+
+/* TODO: fail gracefully when not loggin in */
+
+@-moz-document domain("reddit.com") {
+  
+  /* it would be much easier to just block the header, but if you   
+  /* actually post (why would you do this) you'll need to see your 
+  /* messages */
+  #header-img{display:none !important}
+  div#header-bottom-left{display:none}
+  div.width-clip{display:none}
+  #sr-header-area{display:none !important}
+  #header-bottom-right{position: static !important;	border-top-left-radius:initial}
+  
+  
+  /* makes viewing your frontpage bareable */
+  #siteTable_organic{display:none !important}
+  div.trending-subreddits{display:none}
+  div.promotedlink{display:none}
+  div.goldvertisement{display:none}
+  div#ad_main{display:none}
+  div.account-activity-box{display:none}
+  div.nub{display:none}
+  form.logout{display:none}
+  span.separator:nth-child(9){display:none}
+  
+  div.footer-parent{display:none}
+  span.nextprev{margin-top: unset !important;}
+  
+  div.contents{display:none}
+  div.grippy{display:none}
+  div.listing-chooser{display:none !important}
+  
+  /* might want to comment this if you like the expando button */
+  div.expando-button{display:none}
+  
+  span.rank{display:none}
+  div.midcol{display:none}
+  span.domain{display:none}
+  
+  .tagline time{display:none}
+  
+  /* you may like the sidebar, redundant rules have been added incase */
+  
+  div.side{display:none}
+  div.titlebox{display:none}
+  
+  div.sidebox.create div.spacer{display:none}
+  div.sidecontentbox{display:none}
+  div.linkinfo{display:none}
+  form.flairtoggle{display:none}
+  p.users-online{display:none}
+  
+  /* comment rules */
+  
+  .panestack-title{display:none}
+  .menuarea{display:none}
+  .child{margin-top: 2px !important;}
+  
+  .comments-page ul.flat-list.buttons{display:none !important;} /* hides the buttons belows comments */
+  .give-gold-button{display:none !important}
+  .embed-comment{display:none}
+  .save-button{display:none !important;}
+  .flat-list.buttons li:nth-child(2){display:none !important;}
+  div.tagline{display:none}
+
+  /**/
+  .reddiquette{display:none}
+  .help-toggle{display:none}
+  .usertext-buttons button{
+    display: unset !important; 
+    margin: 1px;
+    padding: 1px;
+    display:inline !important;
+  }
+  .save{margin-right: 3px !important}
+}
