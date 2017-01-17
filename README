@@ -1,0 +1,15 @@
+globaldark.css is a modified version of stormi's ``Global dark style'' from
+https://creativecommons.org/licenses/by-nc-sa/4.0/, and thus is licensed under
+the CC BY-NC-SA 4.0.
+
+notable changes:
+	- I have made an effort to make the css readable by formatting blocks,
+	  and other such things.
+	- a few blocks are commented out for taste or function reasons
+	- code blocks are rendered in green instead of red
+
+caveats:
+	- the purpose of the css is to make the web comfortable to use in an
+	  otherwise black/green-themed setup, rather than to be strictly
+	  aestheticaly pleasing. the css is only just good enough that
+	  I do not feel compelled to tweak it further
